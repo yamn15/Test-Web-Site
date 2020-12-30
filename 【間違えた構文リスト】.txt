@@ -1,0 +1,7 @@
+【間違えた構文リスト】
+
+誤:
+    <link href="css/style.css" ref="stylesheet">
+
+正:
+    <link href="css/style.css" rel="stylesheet">
