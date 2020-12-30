@@ -1,7 +1,39 @@
 【間違えた構文リスト】
-
+*********************************2020/12/30****************************************************
 誤:
     <link href="css/style.css" ref="stylesheet">
 
 正:
     <link href="css/style.css" rel="stylesheet">
+
+***********************************************************************************************
+*********************************2020/12/30****************************************************
+wrapperってなんだっけ？
+
+***********************************************************************************************
+*********************************2020/12/30****************************************************
+p.190 font変わらない わからない
+
+→Google font公式サイトを確認したところ、
+    https://fonts.google.com/specimen/Philosopher?query=Philosopher&sidebar.open=true&selection.family=Philosopher:wght@700
+
+下記が正しいCSSコード
+    font-family: 'Philosopher', sans-serif;
+
+下記が正しいHTMLコード
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">←これはわからん
+
+→Bookには、下記コードが書かれていた
+CSS
+    font-family: 'Philosopher', serif;
+HTML
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+
+
+***********************************************************************************************
+*********************************2020/12/30****************************************************
+
+CSSで # を付けて装飾を指定するのは、Id
+CSSで . を付けて装飾を指定するのは、class
