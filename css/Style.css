@@ -140,6 +140,14 @@ article {
     width: 74%;
 }
 
+article img {
+    margin-bottom: 20px;
+}
+
+article p {
+    margin-bottom: 1rem;
+}
+
 .post-info {
     position: relative;
     padding-top: 4px;
@@ -156,6 +164,7 @@ article {
     text-align: center;
     position: absolute;
     top: 0;
+    left: 0;
     padding-top: 10px;
 }
 
@@ -172,12 +181,15 @@ article {
     font-family: "Yu Mincho", "YuMincho", serif;
     font-size: 2rem;
     font-weight: normal;
-}
-
-.post-title,
-.post-cat {
     margin-left: 120px;
 }
+
+.post-cat {
+    margin-left: 120px;
+    font-size: 25px;
+}
+
+
 
 /* Side Bar */
 aside {
