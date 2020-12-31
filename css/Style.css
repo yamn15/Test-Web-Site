@@ -128,6 +128,24 @@ img {
     text-align: center;
 }
 
+/* Article Area */
+article {
+    width: 74%;
+}
+
+/* Side Bar */
+aside {
+    width: 22%;
+}
+
+/* add Flexbox */
+.news-contents {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
 /* footer
 ---------------------------------------------------*/
 footer {
