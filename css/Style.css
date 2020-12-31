@@ -99,16 +99,16 @@ img {
 }
 
 #home {
-    /* ↓↓↓シンプルな画像のみの背景↓↓↓ */
-    /* background-image: url(../images/main-bg.jpg); */
-    /* ↓↓↓背景をグラデーションにする方法↓↓↓
-        /*background-image: linear-gradient(#c9ffbf, #ffafbd); */
-    /* ↓↓↓背景にカラーを重ねる方法↓↓↓
-        /* background-color: #0bd; */
-        /* background-blend-mode: hard-light; */
-    /* ↓↓↓背景画像にグラデーションカラーを重ねる方法↓↓↓ */
-    background-image: url(../images/main-bg.jpg),linear-gradient(#c9ffbf, #ffafbd);
-    background-blend-mode: luminosity;
+    background-image: url(../images/main-bg.jpg);
+        /* ↑↑↑シンプルな画像のみの背景↑↑↑ */
+    /*background-image: linear-gradient(#c9ffbf, #ffafbd); */
+        /* ↑↑↑背景をグラデーションにする方法↑↑↑ */
+    /* background-color: #0bd; */
+    /* background-blend-mode: hard-light; */
+        /* ↑↑↑背景にカラーを重ねる方法↑↑↑
+    /* background-image: url(../images/main-bg.jpg),linear-gradient(#c9ffbf, #ffafbd); */
+    /* background-blend-mode: luminosity;*/
+        /* ↑↑↑背景画像にグラデーションカラーを重ねる方法↑↑↑ */
     min-height: 100vh;
 }
 
@@ -116,3 +116,14 @@ img {
     text-transform: none;
 }
 
+/* NEWS
+---------------------------------------------------*/
+#news {
+    background-image: url(../images/news-bg.jpg);
+    height: 270px;
+    margin-bottom: 48px;
+}
+
+#news .page-title {
+    text-align: center;
+}
