@@ -142,7 +142,8 @@ img {
 
 /* Article Area */
 article {
-    width: 74%;
+    width: 60%;
+    order: 2;
 }
 
 article img {
@@ -198,10 +199,15 @@ article p {
 /* Side Bar */
 aside {
     width: 22%;
+    order: 3;
 }
 
 aside p {
     padding: 12px 10px;
+}
+
+.ad {
+    order: 1;
 }
 
 .sub-title {
