@@ -236,19 +236,6 @@ aside p {
     color: #0bd;
 }
 
-/* footer
----------------------------------------------------*/
-footer {
-    background: #432;
-    text-align: center;
-    padding: 26px 0;
-}
-
-footer p {
-    color: #fff;
-    font-size: 0.875rem;
-}
-
 /* MENU
 ---------------------------------------------------*/
 #menu {
@@ -266,7 +253,27 @@ footer p {
     font-size: 1.125rem;
     margin: 10px 0 0;
 }
+.grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
 
+
+/* footer
+---------------------------------------------------*/
+footer {
+    background: #432;
+    text-align: center;
+    padding: 26px 0;
+}
+
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}
 
 
 /* mobile version
